@@ -4,7 +4,7 @@
 // https://github.com/KartikTalwar/gmail.js
 //
 
-var Gmail = function(localJQuery) {
+module.exports = function(localJQuery) {
 
   /*
     Use the provided 'jQuery' if possible, in order to avoid conflicts with
